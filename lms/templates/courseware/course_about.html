@@ -102,12 +102,12 @@ from openedx.core.lib.courses import course_image_url
     <div class="intro-inner-wrapper">
       <div class="table">
       <section class="intro">
-        <div class="heading-group">
+<!--        <div class="heading-group">
           <h1>
             ${course.display_name_with_default_escaped}
             <button type="button">${course.display_org_with_default | h}</button>
           </h1>
-        </div>
+        </div> -->
 
 <!--        <div class="main-cta">
         %if user.is_authenticated() and registered:
@@ -156,7 +156,7 @@ from openedx.core.lib.courses import course_image_url
           </a>
           <div id="register_error"></div>
         %else:
-          <% 
+          <%
             if ecommerce_checkout:
               reg_href = ecommerce_checkout_link
             else:
